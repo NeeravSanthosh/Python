@@ -1,0 +1,10 @@
+# percentage calculation
+
+maths = int(input("enter the maths marks :"))
+eng = int(input("enter the eng marks :"))
+sci = int(input("enter the sci marks :"))
+comp = int(input("enter the comp marks :"))
+total = maths + sci + comp + eng
+per = total/400 * 100
+print("the total marks is :",total)
+print("the percentage is",per)
